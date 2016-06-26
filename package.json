@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "dev": "webpack -d --watch",
-    "build": "webpack -p"
+    "build": "webpack -p --define process.env.NODE_ENV='\"production\"'"
   },
   "repository": {
     "type": "git",
