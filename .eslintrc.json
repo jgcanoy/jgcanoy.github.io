@@ -16,5 +16,8 @@
         "ecmaFeatures": {
             "jsx": true
         }
+    },
+    "globals": {
+        "ga": true
     }
 }
